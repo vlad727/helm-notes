@@ -12,3 +12,12 @@ test_install is not true
 {{- else if not .Values.test_isntall1 }}
 test_install1 is not true
 {{- end }}
+
+description:
+{{ if <PIPELINE> }}
+    # If true will execute
+{{ else if <next Pipeline> }}
+    # If false and else true will execute
+{{ else }}
+    # default execution
+{{ end }}
