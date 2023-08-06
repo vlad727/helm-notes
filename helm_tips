@@ -1,0 +1,1 @@
+ mv cluster-role-prometheus.yaml _cluster-role-prometheus.yaml ### how to ignore some templates 
